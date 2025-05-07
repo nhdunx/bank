@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
+	<Application>
+		<Assembly Name="System.Resources.Extensions">
+			<Type Name="System.Resources.Extensions.RuntimeResourceSet" Dynamic="Required All" />
+			<Type Name="System.Resources.Extensions.DeserializingResourceReader" Dynamic="Required All" />
+
+		</Assembly>
+		<Assembly Name="System.Runtime" Dynamic="Required All">
+		</Assembly>
+		<Assembly Name="System.Drawing">
+			<Type Name="System.Drawing.Bitmap" Dynamic="Required All" />
+		</Assembly>
+
+		<Assembly Name="System.Private.CoreLib">
+			<Type Name="System.Collections.Generic.List`1[[KLFixLag.Transaction, KLFixLag]]" Dynamic="Required All" />
+		</Assembly>
+		
+			<Assembly Name="Newtonsoft.Json" Dynamic="Required All">
+			<Type Name="Newtonsoft.Json.JsonConvert" Dynamic="Required All" />
+			<Type Name="Newtonsoft.Json.JsonSerializer" Dynamic="Required All" />
+			<Type Name="Newtonsoft.Json.Serialization.JsonSerializerInternalReader" Dynamic="Required All" />
+		</Assembly>
+
+		<Assembly Name="System.Management" Dynamic="Required All">
+			<Type Name="System.Management.WbemDefPath" Dynamic="Required All">
+				<Method Name=".ctor" Dynamic="Required" />
+			</Type>
+			<Type Name="System.Management.WbemObjectTextSrc" Dynamic="Required All">
+				<Method Name=".ctor" Dynamic="Required" />
+			</Type>
+			<Type Name="System.Management.WbemStatusCodeText" Dynamic="Required All">
+				<Method Name=".ctor" Dynamic="Required" />
+			</Type>
+			<Type Name="System.Management.WbemClassObject" Dynamic="Required All">
+				<Method Name=".ctor" Dynamic="Required" />
+			</Type>
+			<Type Name="System.Management.WbemContext" Dynamic="Required All">
+				<Method Name=".ctor" Dynamic="Required" />
+			</Type>
+		</Assembly>
+		
+		<Assembly Name="KLFixLag" Dynamic="Required All" />
+		<Assembly Name="System.Collections" Dynamic="Required All" />
+		<Assembly Name="System.Runtime.InteropServices" Dynamic="Required All" />
+		<Assembly Name="System.Runtime.InteropServices.JavaScript" Dynamic="Required All" />
+		<Assembly Name="System.Runtime.InteropServices.RuntimeInformation" Dynamic="Required All" />
+	</Application>
+</Directives>
